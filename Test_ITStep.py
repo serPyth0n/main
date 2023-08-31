@@ -75,7 +75,7 @@ car = Car("Toyota", 2022, "Toyota", 2060, "red", 1450000)
 
 JSONSerializ.serializer(car, "car.json")
 
-# Використання класу JSONSerializer для десеріалізації з файлу та парсінгу об'єкта
+
 loaded_car = JSONSerializ.deserialize(Car, "car.json")
 print("Loaded car:", loaded_car)
 
